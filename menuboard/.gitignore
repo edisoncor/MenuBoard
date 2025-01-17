@@ -452,6 +452,9 @@ ServiceFabricBackup/
 *.mdf
 *.ldf
 *.ndf
+# Ignorar la base de datos SQLite
+db.sqlite3
+
 
 # Business Intelligence projects
 *.rdl.data
@@ -614,6 +617,9 @@ FodyWeavers.xsd
 .idea/**/gradle.xml
 .idea/**/libraries
 
+
+# Ignorar la carpeta .idea
+.idea/
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
@@ -662,6 +668,11 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+# Ignorar migraciones compiladas
+*.pyc
+__pycache__/
+
 
 ### Python template
 # Byte-compiled / optimized / DLL files
@@ -786,6 +797,7 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
+
 
 # Environments
 .env
