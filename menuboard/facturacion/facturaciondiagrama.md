@@ -1,1 +1,2 @@
-![img.png](../../../../MenuBoard/Facturacionboard/facturacionApp/img.png)
+
+![img.png](img.png)
