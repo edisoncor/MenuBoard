@@ -1,4 +1,28 @@
 # MenuBoard
+# Los integrantes del grupo de Inventario son: 
+- Tayron Morales.
+  tayron.morales@unl.edu.ec
+- Mathias Medina. 
+  mathias.medina@unl.edu.ec
+- Santiago Villamagua.
+  santiago.villamagua@unl.edu.ec
+- Leonardo Sánchez.
+  leonardo.sanchez@unl.edu.ec
+- Luis Blacio.
+  luis.blacio@unl.edu.ec
+
+  
+# Diagrama Visual Paradimg 
+
+![Captura de pantalla 2024-11-26 090338](https://github.com/user-attachments/assets/c7749dbe-1b60-4093-b966-77a0b0499ded)
+
+
+**Link del diagrama para ver más claro**
+
+https://drive.google.com/file/d/1WnKVkikT2FHkUT9_u0Pv7kQjc8qsrlUT/view?usp=sharing
+
+# Link de código:
+https://github.com/Tayron2024/MenuBoard/tree/main/menuboard/menuboard/Inventario
 
 # Proyecto
 MenuBoard es un sistema de gestión de restaurantes diseñado para facilitar la administración de restaurantes, cafeterías o cualquier establecimiento de alimentos y bebidas. La aplicación permite crear, modificar y gestionar menús de manera eficiente, proporcionando a los usuarios una interfaz sencilla para realizar actualizaciones rápidas, gestionar categorías de platos y actualizar precios de forma intuitiva.
