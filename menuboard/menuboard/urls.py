@@ -1,5 +1,5 @@
 """
-URL configuration for ModuloPedidos project.
+URL configuration for menuboard project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,13 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from pedidos import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name="home"),
-    path('user/', views.user, name="user"),
-    path('blank/',views.blank, name="blank"),
-    path('login/', views.login_view, name='login'),
-    path('register/', views.register_view, name='register'),
-
 ]
