@@ -6,3 +6,10 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Ignorar configuración específica de IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorar base de datos SQLite
+db.sqlite3
