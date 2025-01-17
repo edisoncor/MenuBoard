@@ -23,7 +23,7 @@ class InteraccionPedido(models.Model, ABC, metaclass=MultiModelABCMeta):
         abstract = True
     #Metodos:
     @abstractmethod
-    def actualizar_estado(self, estado:Estado, pedido:'Pedido'):
+    def actualizar_estado(self, estado:'Estado', pedido:'Pedido'):
         pass
     @abstractmethod
     def visualizar_estado(self, pedido:'Pedido'):
