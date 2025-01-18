@@ -1,14 +1,20 @@
-# Ignorar configuración específica de IntelliJ IDEA
+# Archivos y carpetas generadas por el IDE
 .idea/
-*.iml
 
+# Archivos y carpetas de Python
 __pycache__/
 *.pyc
 
-# Ignorar base de datos SQLite
+# Archivos de bases de datos
 db.sqlite3
 
+# Archivos de migraciones
+*/migrations/*.pyc
+*/migrations/__pycache__/
 
+# Archivos estáticos generados
+staticfiles/
+media/
 
 ### VisualStudioCode template
 .vscode/*
