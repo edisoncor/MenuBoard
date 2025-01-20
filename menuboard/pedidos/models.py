@@ -18,6 +18,7 @@ class Estado(Enum):
 #Interfazes:
 class MultiModelABCMeta(ModelBase, ABCMeta):
     pass
+
 class InteraccionPedido(models.Model, ABC, metaclass=MultiModelABCMeta):
     class Meta:
         abstract = True
@@ -29,7 +30,7 @@ class InteraccionPedido(models.Model, ABC, metaclass=MultiModelABCMeta):
     def visualizar_estado(self, pedido:'Pedido'):
         pass
 
-class InteraccionCliente(models.Model):
+class InteraccionCliente(models.Model, ABC, metaclass=MultiModelABCMeta):
     class Meta:
         abstract = True
     #Metodos:
